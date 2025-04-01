@@ -1,0 +1,327 @@
+:root {
+  --white-ops60: rgb(255, 255, 255, 60%);
+  --white-ops4: rgb(255, 255, 255, 4%);
+  --yellow-color: #FCE803;
+  --transition: 0.5s;
+}
+
+/* #region Box */
+.d-block {
+  display: block;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.flow-hidden {
+  overflow: hidden;
+}
+
+@media (max-width: 767px) {
+  .block-mobile {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .hide-mobile {
+    display: none;
+  }
+}
+
+/* #endregion Box */
+
+/* #region Spaces */
+.w-fit {
+  width: fit-content;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.img-w-50 {
+  width: 50px;
+}
+
+.img-w-100 {
+  width: 100px;
+}
+
+/* #endregion Spaces */
+
+/* #region Padding*/
+.p-10 {
+  padding: 10px;
+}
+
+.p-15 {
+  padding: 15px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.pt-15 {
+  padding-top: 15px;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.pb-15 {
+  padding-bottom: 15px;
+}
+
+.pl-15 {
+  padding-left: 15px;
+}
+
+/* #endregion Padding*/
+/* #region Border */
+.b-none {
+  border: none;
+}
+
+.solid1-ccc {
+  border: 1px solid #ccc;
+}
+
+.rad-6 {
+  border-radius: 6px;
+}
+
+.rad-10 {
+  border-radius: 10px;
+}
+
+.rad-half {
+  border-radius: 50%;
+}
+
+/* #endregion Border */
+/* #region Margin */
+.m-20 {
+  margin: 20px;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-25 {
+  margin-top: 25px;
+}
+
+.mr-5 {
+  margin-right: 5px
+}
+
+.mr-10 {
+  margin-right: 10px
+}
+
+.mr-15 {
+  margin-right: 15px
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.ml-5 {
+  margin-left: 5px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.ml-15 {
+  margin-left: 15px;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+/* #endregion Margin */
+
+/* #region Color */
+.bg-white {
+  background-color: white;
+}
+
+.bg-white-ops60 {
+  background-color: var(--white-ops60)
+}
+
+.bg-white-ops4 {
+  background-color: var(--white-ops4)
+}
+
+.bg-yellow {
+  background-color: var(--yellow-color);
+}
+
+.bg-ccc {
+  background-color: #ccc;
+}
+
+.bg-eee {
+  background-color: #eee;
+}
+
+.c-black {
+  color: black;
+}
+
+.c-white {
+  color: white;
+}
+
+.c-white-ops60 {
+  color: var(--white-ops60)
+}
+
+.c-white-ops4 {
+  color: var(--white-ops4)
+}
+
+.c-ccc {
+  color: #ccc;
+}
+
+.c-eee {
+  color: #eee;
+}
+
+.c-yellow {
+  color: var(--yellow-color);
+}
+
+/* #endregion Color */
+
+/* #region Position */
+.p-relative {
+  position: relative;
+}
+
+/* #endregion Position */
+
+/* #region Font */
+.txt-c {
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .txt-c-mobile {
+    text-align: center;
+  }
+}
+
+.fs-11 {
+  font-size: 11px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-25 {
+  font-size: 25px;
+}
+
+.fs-32 {
+  font-size: 32px;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+/* #endregion Font */
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* #region Components */
+.center-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.between-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.around-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* #endregion Components */
